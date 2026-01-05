@@ -1,0 +1,117 @@
+{
+
+  "words": [
+
+    { "mot": "chat", "categorie": "animal", "indice": "Un compagnon domestique qui aime dormir" },
+
+    { "mot": "chien", "categorie": "animal", "indice": "Fidèle gardien de la maison" },
+
+    { "mot": "lion", "categorie": "animal", "indice": "Surnommé le roi de la savane" },
+
+    { "mot": "tigre", "categorie": "animal", "indice": "Félin rayé redoutable" },
+
+    { "mot": "éléphant", "categorie": "animal", "indice": "Le plus grand mammifère terrestre" },
+
+    { "mot": "maison", "categorie": "lieu", "indice": "On y vit et on y dort" },
+
+    { "mot": "école", "categorie": "lieu", "indice": "Lieu d’apprentissage pour les enfants" },
+
+    { "mot": "hôpital", "categorie": "lieu", "indice": "On y soigne les malades" },
+
+    { "mot": "plage", "categorie": "lieu", "indice": "Lieu de sable au bord de la mer" },
+
+    { "mot": "montagne", "categorie": "lieu", "indice": "Lieu élevé, parfois enneigé" },
+
+    { "mot": "soleil", "categorie": "astre", "indice": "Il éclaire et réchauffe la Terre" },
+
+    { "mot": "lune", "categorie": "astre", "indice": "Visible la nuit, elle change de forme" },
+
+    { "mot": "étoile", "categorie": "astre", "indice": "Elle brille dans le ciel nocturne" },
+
+    { "mot": "galaxie", "categorie": "astre", "indice": "Ensemble d’étoiles et de planètes" },
+
+    { "mot": "ordinateur", "categorie": "objet", "indice": "Machine pour calculer et travailler" },
+
+    { "mot": "téléphone", "categorie": "objet", "indice": "Appareil pour communiquer à distance" },
+
+    { "mot": "stylo", "categorie": "objet", "indice": "On écrit avec" },
+
+    { "mot": "papier", "categorie": "objet", "indice": "Support pour écrire ou dessiner" },
+
+    { "mot": "lampe", "categorie": "objet", "indice": "Elle éclaire une pièce" },
+
+    { "mot": "vélo", "categorie": "transport", "indice": "Deux roues, propulsé par les jambes" },
+
+    { "mot": "voiture", "categorie": "transport", "indice": "Quatre roues, circule sur la route" },
+
+    { "mot": "train", "categorie": "transport", "indice": "Circule sur des rails" },
+
+    { "mot": "avion", "categorie": "transport", "indice": "Il vole dans le ciel" },
+
+    { "mot": "bateau", "categorie": "transport", "indice": "Il flotte sur l’eau" },
+
+    { "mot": "pain", "categorie": "aliment", "indice": "On le coupe en tranches" },
+
+    { "mot": "fromage", "categorie": "aliment", "indice": "Produit laitier souvent affiné" },
+
+    { "mot": "banane", "categorie": "fruit", "indice": "Jaune et courbée" },
+
+    { "mot": "pomme", "categorie": "fruit", "indice": "Rouge ou verte, croquante" },
+
+    { "mot": "orange", "categorie": "fruit", "indice": "Agrume riche en vitamine C" },
+
+    { "mot": "citron", "categorie": "fruit", "indice": "Agrume jaune et acide" },
+
+    { "mot": "rose", "categorie": "fleur", "indice": "Symbole de l’amour" },
+
+    { "mot": "tulipe", "categorie": "fleur", "indice": "Fleur des Pays-Bas" },
+
+    { "mot": "lilas", "categorie": "fleur", "indice": "Fleur violette parfumée" },
+
+    { "mot": "football", "categorie": "sport", "indice": "On y joue avec un ballon rond" },
+
+    { "mot": "basket", "categorie": "sport", "indice": "On y lance un ballon dans un panier" },
+
+    { "mot": "tennis", "categorie": "sport", "indice": "On y frappe une balle avec une raquette" },
+
+    { "mot": "rugby", "categorie": "sport", "indice": "Ballon ovale et plaquages" },
+
+    { "mot": "natation", "categorie": "sport", "indice": "On avance dans l’eau" },
+
+    { "mot": "musique", "categorie": "art", "indice": "On l’écoute ou on la joue" },
+
+    { "mot": "peinture", "categorie": "art", "indice": "On l’applique sur une toile" },
+
+    { "mot": "sculpture", "categorie": "art", "indice": "On la taille dans la pierre" },
+
+    { "mot": "cinéma", "categorie": "art", "indice": "On y regarde des films" },
+
+    { "mot": "poème", "categorie": "art", "indice": "Texte en vers" },
+
+    { "mot": "roman", "categorie": "art", "indice": "Texte narratif long" },
+
+    { "mot": "histoire", "categorie": "science", "indice": "Étude du passé" },
+
+    { "mot": "maths", "categorie": "science", "indice": "Nombres et calculs" },
+
+    { "mot": "physique", "categorie": "science", "indice": "Étude des lois naturelles" },
+
+    { "mot": "chimie", "categorie": "science", "indice": "Étude des réactions" },
+
+    { "mot": "biologie", "categorie": "science", "indice": "Étude du vivant" },
+
+    { "mot": "géographie", "categorie": "science", "indice": "Étude des lieux et territoires" },
+
+    { "mot": "robot", "categorie": "technologie", "indice": "Machine qui imite l’homme" },
+
+    { "mot": "internet", "categorie": "technologie", "indice": "Réseau mondial" },
+
+    { "mot": "logiciel", "categorie": "technologie", "indice": "Programme informatique" },
+
+    { "mot": "jeu", "categorie": "divertissement", "indice": "On y joue pour s’amuser" }
+
+    // … ajoute autant de mots que tu veux pour dépasser 100
+
+  ]
+
+}

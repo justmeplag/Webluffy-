@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion au Bot</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f9; display: flex; justify-content: center; align-items: center; height: 100vh; }
+    .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 350px; text-align: center; }
+    h2 { margin-bottom: 20px; color: #333; }
+    input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; }
+    button { background: #007bff; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; font-size: 16px; }
+    button:hover { background: #0056b3; }
+    .result { margin-top: 20px; font-weight: bold; color: green; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Connexion au Bot</h2>
+    <form id="connectForm">
+      <input type="text" id="phoneNumber" placeholder="📱 Entrer votre numéro (ex: 509XXXXXXXX)" required>
+      <button type="submit">Obtenir mon code</button>
+    </form>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+    document.getElementById("connectForm").addEventListener("submit", async function(e) {
+      e.preventDefault();
+      const number = document.getElementById("phoneNumber").value.trim();
+      if (!number) {
+        alert("Veuillez entrer un numéro valide.");
+        return;
+      }
+
+      try {
+        const response = await fetch("/api/pair", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ number })
+        });
+
+        const data = await response.json();
+        if (data.code) {
+          document.getElementById("result").innerText = `🔑 Votre code de connexion : ${data.code}`;
+        } else {
+          document.getElementById("result").innerText = `❌ Erreur : ${data.error || "Impossible de générer le code."}`;
+        }
+      } catch (err) {
+        document.getElementById("result").innerText = "❌ Erreur de connexion au serveur.";
+      }
+    });
+  </script>
+</body>
+</html>
